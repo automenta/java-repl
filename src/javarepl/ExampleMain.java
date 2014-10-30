@@ -1,5 +1,6 @@
 package javarepl;
 
+/*
 import com.googlecode.totallylazy.Mapper;
 import com.googlecode.totallylazy.Option;
 import com.googlecode.totallylazy.Sequence;
@@ -36,8 +37,50 @@ import static javarepl.completion.CompletionCandidate.functions.candidateValue;
 import static javarepl.completion.CompletionResult.methods.fromJson;
 import static javarepl.completion.CompletionResult.methods.toJson;
 import static javax.tools.ToolProvider.getSystemJavaCompiler;
+import static java.lang.String.format;
+import static java.lang.System.getProperty;
+import static java.util.Arrays.asList;
+import static javarepl.Utils.applicationVersion;
+import static javarepl.Utils.randomServerPort;
+import static javarepl.completion.CompletionCandidate.functions.candidateForms;
+import static javarepl.completion.CompletionCandidate.functions.candidateValue;
+import static javarepl.completion.CompletionResult.methods.fromJson;
+import static javarepl.completion.CompletionResult.methods.toJson;
+import static javax.tools.ToolProvider.getSystemJavaCompiler;
+import javarepl.console.SimpleConsole;
+import javarepl.console.ConsoleConfig;
+import javarepl.console.rest.RestConsole;
+import javarepl.console.commands.SearchHistory;
+import javarepl.Main;
 
-public class ExampleMain {
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
+import java.io.PrintWriter;
+import java.util.Date;
+import javarepl.ExpressionReader;
+import javarepl.Main;
+import static javarepl.Main.printColors;
+import static javarepl.Result.result;
+import javarepl.ResultPrinter;
+import javarepl.client.EvaluationResult;
+import javarepl.client.JavaREPLClient;
+import static javarepl.console.ConsoleConfig.consoleConfig;
+import javarepl.console.SimpleConsole;
+import javarepl.console.commands.EvaluateFromHistory;
+import javarepl.console.commands.ListValues;
+import javarepl.console.commands.SearchHistory;
+import javarepl.console.commands.ShowHistory;
+import javarepl.console.rest.RestConsole;
+import javarepl.internal.totallylazy.Option;
+import static javarepl.internal.totallylazy.Option.none;
+
+*/
+
+/*public class ExampleMain {
 
     public static void main(String... args) throws Exception {
         Main.process = none();
@@ -74,5 +117,5 @@ public class ExampleMain {
             }
         }
     }
-}
+}*/
     
